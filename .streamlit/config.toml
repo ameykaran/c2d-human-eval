@@ -1,0 +1,13 @@
+# Theme for the human evaluation app (human_eval/app.py). Community Cloud only reads this file from the repo root.
+[theme]
+base = "light"
+primaryColor = "#4F46E5"
+backgroundColor = "#F7F8FC"
+secondaryBackgroundColor = "#EEF0F7"
+textColor = "#1F2937"
+borderColor = "#E5E7EB"
+baseRadius = "0.75rem"
+
+[client]
+# Hide the options menu, and with it the viewer's theme switcher: the app's CSS is written for the light theme.
+toolbarMode = "minimal"
